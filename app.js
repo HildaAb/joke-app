@@ -145,7 +145,7 @@ function tellMe(joke) {
 async function getJokes() {
   let joke = "";
   const apiUrl =
-    "https://sv443.net/jokeapi/v2/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist";
+    "https://sv443.net/jokeapi/v2/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist";
 
   try {
     const response = await fetch(apiUrl);
